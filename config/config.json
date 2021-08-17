@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "port": "5432",
+    "ssl": true,
+    "database": "db_name",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "require": true, "rejectUnauthorized": false }
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "ssl": true,
+    "database": "db_name",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "require": true, "rejectUnauthorized": false }
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "password",
+    "ssl": true,
+    "database": "db_name",
+    "host": "localhost",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { "require": true, "rejectUnauthorized": false }
+    }
+  }
+}
